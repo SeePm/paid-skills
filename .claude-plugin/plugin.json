@@ -1,0 +1,10 @@
+{
+  "name": "media-planner",
+  "version": "0.1.0",
+  "description": "Skills for media planners: brief, plan, audit and present paid media from the real business outcome. Google, Meta and 7 more ad platforms.",
+  "author": { "name": "SeePM", "url": "https://www.seepm.app" },
+  "homepage": "https://www.seepm.app/skills",
+  "repository": "https://github.com/SeePm/paid-skills",
+  "license": "Apache-2.0",
+  "keywords": ["paid-media", "media-planning", "google-ads", "meta-ads", "advertising", "audit"]
+}

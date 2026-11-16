@@ -1,0 +1,27 @@
+{
+  "name": "media-planner",
+  "version": "0.1.0",
+  "description": "Skills for media planners: brief, plan, audit and present paid media from the real business outcome. Google, Meta and 7 more ad platforms.",
+  "author": { "name": "SeePM", "url": "https://www.seepm.app" },
+  "homepage": "https://www.seepm.app/skills",
+  "repository": "https://github.com/SeePm/paid-skills",
+  "license": "Apache-2.0",
+  "keywords": ["paid-media", "media-planning", "google-ads", "meta-ads", "advertising", "audit"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Media Planner",
+    "shortDescription": "Brief, plan, audit and present paid media",
+    "longDescription": "The way a senior media planner works: find the real outcome the business needs, plan or audit the account against it, and present what to do first in a few lines. Pages for Google, Meta, TikTok, Apple, LinkedIn, X, Reddit, Pinterest and ChatGPT ads. Works from exported reports or any live connection.",
+    "developerName": "SeePM",
+    "category": "Business & Operations",
+    "capabilities": ["Read"],
+    "websiteURL": "https://www.seepm.app/skills",
+    "privacyPolicyURL": "https://www.seepm.app/privacy",
+    "termsOfServiceURL": "https://www.seepm.app/terms",
+    "defaultPrompt": [
+      "Write the brief for this client: what the business really needs from paid media",
+      "Audit this ad account against what the business needs and rank the findings by money at stake"
+    ],
+    "logo": "./.claude-plugin/icon.png"
+  }
+}

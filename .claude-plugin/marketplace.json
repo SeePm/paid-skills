@@ -1,0 +1,15 @@
+{
+  "name": "seepm",
+  "owner": {
+    "name": "SeePM",
+    "url": "https://www.seepm.app"
+  },
+  "description": "SeePM's open skills for paid media work.",
+  "plugins": [
+    {
+      "name": "media-planner",
+      "source": "./",
+      "description": "Skills for media planners: brief, plan, audit and present paid media from the real business outcome. Google, Meta and 7 more ad platforms."
+    }
+  ]
+}
