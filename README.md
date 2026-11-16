@@ -23,6 +23,8 @@ codex plugin marketplace add SeePm/paid-skills
 codex plugin add media-planner@seepm
 ```
 
+In the Claude app (web or desktop): download a skill as a ZIP from [seepm.app/skills](https://www.seepm.app/skills#install), upload it in Customize > Skills, then turn it on. One file per skill.
+
 Or copy a folder from `skills/` into your agent's skills folder (for Claude Code, `~/.claude/skills/`).
 
 ## The skills
