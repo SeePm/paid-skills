@@ -22,8 +22,8 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Structure and spend
 - The search terms report is a **sample**: terms below a privacy threshold are not shown. State how many of the campaign's clicks the visible terms cover before concluding anything from them.
-- Auction insights shows advertisers sharing your auctions and, for Search, how often they appear above you. It does not reveal their keyword targets. [Google Help](https://support.google.com/google-ads/answer/2579754)
-- If Auction insights is unavailable through the API, request an export from Google Ads. Google's API team reported restricted access in December 2025 and a closed allowlist in January 2026. [Google API team](https://groups.google.com/g/adwords-api/c/SupOLRKH7GU)
+- Auction insights compares you with advertisers in the same auctions (impression share, overlap and, for Search, how often they show above you). It needs at least 10% impression share and leaves out search partners. [Google Help](https://support.google.com/google-ads/answer/2579754)
+- If Auction insights is unavailable through the API, request an export from Google Ads. Google's API team said in December 2025, and again in January 2026, that these metrics are only for allowlisted developers and the allowlist is closed. [Google API team](https://groups.google.com/g/adwords-api/c/SupOLRKH7GU)
 - Breakdowns worth a look: device, hour and day, location, audience segments added in observation, and for Performance Max the search term and asset group insights.
 
 ## Creative
@@ -36,6 +36,6 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Budget and pacing
 - "Limited by budget" on a campaign that pays is the opportunity, not the problem.
-- Search lost IS (budget) estimates impressions missed because of insufficient budget; Search lost IS (rank) estimates those missed because of poor Ad Rank. Neither shows whether the extra impressions would pay. [Google Help](https://support.google.com/google-ads/answer/7103314)
+- Search lost IS (budget) is the share of time your ads weren't shown because of insufficient budget; Search lost IS (rank), because of poor Ad Rank. Neither shows whether the missed impressions would pay. [Google Help](https://support.google.com/google-ads/answer/7103314)
 - Google can spend up to twice the daily budget on a day, balanced over the month.
 - The API's change history covers 30 days; the interface goes further back. Older changes need the interface or your own log.

@@ -13,7 +13,7 @@ The question is not "what is wrong with this account" but "is the money going to
 
 - **Have the brief.** Y (the real outcome), what one is worth, and the signal X each platform optimizes for. Without it, run `media-brief` or ask its questions. An audit without Y can only grade the account against itself. Without a cost ceiling for Y, compare with a stated baseline, but leave break-even and profitability unjudged.
 - **Ask what worries the user.** Their worry leads; the lenses fill in the rest.
-- **Pick the window.** Choose comparable periods that fit the question and sales cycle. Split at changes in budget, bidding, tracking or launches. Use earlier spend and outcome history when judging growth; compare the same season where available.
+- **Pick the window.** By default, the last 30 days against the 30 before; choose other comparable periods when the question or sales cycle needs them. Split at changes in budget, bidding, tracking or launches. Use earlier spend and outcome history when judging growth; compare the same season where available.
 
 ## First: X against Y
 
