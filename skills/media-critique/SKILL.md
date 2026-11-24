@@ -14,7 +14,7 @@ Run only when asked. A critique on every answer slows the work and teaches the r
 ## For each conclusion
 
 - **What fact does it rest on?** Name the number, the window and the source. A conclusion with no fact behind it is an opinion; say so.
-- **Is the sample readable?** Zero or few results in few clicks or a few days is unmeasured, not good or bad. Check the break-even rate against the clicks actually seen.
+- **Is the sample readable?** Zero or few results in few clicks or a few days is unmeasured, not good or bad. Check the break-even rate against the clicks actually seen. For a trend over time, check that the change is larger than the normal variation between periods.
 - **What else changed in the window?** Budget, bidding, tracking, creative, prices, season, a promotion, a competitor, inflation. A window that spans a change averages two accounts.
 - **Whose numbers?** Platforms credit themselves: a sale can count in Google, Meta and the email tool at once. Platform totals against the business's own count. View-through and modeled conversions said out loud.
 - **Like with like?** Same attribution setting, same currency, same date basis (click date vs conversion date), complete days. Recent days still filling in.
@@ -32,10 +32,10 @@ Run only when asked. A critique on every answer slows the work and teaches the r
 Only the points that change a decision, most serious first:
 
 ```
-<Conclusion as stated>
+<Conclusion as stated, or Absent: what the work skipped>
 Problem: <what does not hold, in one line>
 Settles it: <the data, test or wait that would decide it>
-Verdict: holds | holds with caveat | does not hold yet
+Verdict: holds | holds with caveat | does not hold yet | missing
 ```
 
 End with one line: what in the work stands as is. No general praise, no restating the work.

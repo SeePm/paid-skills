@@ -22,6 +22,7 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Structure and spend
 - The search terms report is a **sample**: terms below a privacy threshold are not shown. State how many of the campaign's clicks the visible terms cover before concluding anything from them.
+- Auction insights (which competitors share your auctions and how often they rank above you) is in the interface under Insights and reports; its API fields are not open to every developer. Read it with absolute top impression share on brand keywords to see whether competitors bid on your brand.
 - Breakdowns worth a look: device, hour and day, location, audience segments added in observation, and for Performance Max the search term and asset group insights.
 
 ## Creative
@@ -34,5 +35,6 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Budget and pacing
 - "Limited by budget" on a campaign that pays is the opportunity, not the problem.
+- Search impression share lost to budget and lost to rank point to different fixes: the first is a budget cap, the second is bids, ad quality or landing page.
 - Google can spend up to twice the daily budget on a day, balanced over the month.
 - The API's change history covers 30 days; the interface goes further back. Older changes need the interface or your own log.

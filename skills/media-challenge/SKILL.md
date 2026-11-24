@@ -26,7 +26,7 @@ Run only when asked. Argue for real: a challenge that ends in "but overall the p
 ```
 Strongest case against: <two or three lines, argued as if you believed it>
 The assumption it hinges on: <one line>
-Cheapest way to find out: <a holdout, a geo split, a budget step, a call to five customers; what result settles it and when>
+Cheapest way to find out: <a holdout, a geo split, a budget step, a call to five customers; what result settles it and when, checked against the client's volume so it can be read in that time>
 If the case against wins: <what changes>
 ```
 
