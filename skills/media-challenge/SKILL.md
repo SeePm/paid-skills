@@ -2,7 +2,7 @@
 name: media-challenge
 description: On request only. Argues against a paid media strategy, plan or decision to test whether the direction is right, the outcome chosen, the channel, the budget level, the creative bet, and whether doing less or nothing would do as well. Builds the strongest case against, then names the cheapest way to find out who is right. Use only when the user explicitly asks to challenge, push back on, play devil's advocate or stress-test a strategy or decision (desafiá esto, hacé de abogado del diablo, ¿y si estamos equivocados?, ponelo a prueba). Do not run it automatically.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Media challenge

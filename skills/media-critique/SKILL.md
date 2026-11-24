@@ -2,7 +2,7 @@
 name: media-critique
 description: On request only. Checks whether a paid media audit, plan, report or claim holds up, the evidence behind each conclusion, sample size, attribution, what else changed in the window, and labels that overstate. Returns the weak points and what would settle each. Use only when the user explicitly asks to critique, review, poke holes in, double-check or sanity-check a piece of work (criticá esto, revisá si se sostiene, buscale los agujeros, ¿esto está bien?). Do not run it automatically after an audit or plan.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Media critique

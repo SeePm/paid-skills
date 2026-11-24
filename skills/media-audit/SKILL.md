@@ -2,7 +2,7 @@
 name: media-audit
 description: Quick audit of an ad account against what the business actually needs. First checks whether each campaign optimizes for the right outcome at the right funnel stage, then takes a fast look through six lenses (setup, measurement, structure and spend, creative, audience, budget and pacing) and ranks what it finds by money at stake. Read-only. Use when asked to audit, review or "take a look at" an account or campaign, find wasted spend or quick wins, on Google Ads, Meta Ads or other ad platforms (auditoría, revisar la cuenta, dónde se pierde plata, oportunidades rápidas). Works from a live connection or exported reports.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Media audit
