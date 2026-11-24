@@ -2,7 +2,7 @@
 name: media-challenge
 description: On request only. Argues against a paid media strategy, plan or decision to test whether the direction is right, the outcome chosen, the channel, the budget level, the creative bet, and whether doing less or nothing would do as well. Builds the strongest case against, then names the cheapest way to find out who is right. Use only when the user explicitly asks to challenge, push back on, play devil's advocate or stress-test a strategy or decision (desafiá esto, hacé de abogado del diablo, ¿y si estamos equivocados?, ponelo a prueba). Do not run it automatically.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Media challenge
@@ -26,7 +26,7 @@ Run only when asked. Argue for real: a challenge that ends in "but overall the p
 ```
 Strongest case against: <two or three lines, argued as if you believed it>
 The assumption it hinges on: <one line>
-Cheapest way to find out: <a holdout, a geo split, a budget step, a call to five customers; what result settles it and when>
+Cheapest way to find out: <test or check (a holdout, a geo split, a budget step, a call to five customers); what result would change the decision, and when enough evidence is feasible at this volume>
 If the case against wins: <what changes>
 ```
 

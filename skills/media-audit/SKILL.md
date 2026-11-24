@@ -2,7 +2,7 @@
 name: media-audit
 description: Quick audit of an ad account against what the business actually needs. First checks whether each campaign optimizes for the right outcome at the right funnel stage, then takes a fast look through six lenses (setup, measurement, structure and spend, creative, audience, budget and pacing) and ranks what it finds by money at stake. Read-only. Use when asked to audit, review or "take a look at" an account or campaign, find wasted spend or quick wins, on Google Ads, Meta Ads or other ad platforms (auditoría, revisar la cuenta, dónde se pierde plata, oportunidades rápidas). Works from a live connection or exported reports.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Media audit
@@ -11,9 +11,9 @@ The question is not "what is wrong with this account" but "is the money going to
 
 ## Before any data
 
-- **Have the brief.** Y (the real outcome), what one is worth, and the signal X each platform optimizes for. Without it, run `media-brief` or ask its questions. An audit without Y can only grade the account against itself.
+- **Have the brief.** Y (the real outcome), what one is worth, and the signal X each platform optimizes for. Without it, run `media-brief` or ask its questions. An audit without Y can only grade the account against itself. Without a cost ceiling for Y, compare with a stated baseline, but leave break-even and profitability unjudged.
 - **Ask what worries the user.** Their worry leads; the lenses fill in the rest.
-- **Pick the window.** Last 30 days against the 30 before, unless something changed in between (budget, bidding, tracking, a launch). Then split at the change: a window that spans it averages two different accounts.
+- **Pick the window.** By default, the last 30 days against the 30 before; choose other comparable periods when the question or sales cycle needs them. Split at changes in budget, bidding, tracking or launches. Use earlier spend and outcome history when judging growth; compare the same season where available.
 
 ## First: X against Y
 
@@ -33,11 +33,11 @@ Common shapes:
 A quick look each; move on when a lens is clean. Every finding names its lens. Stop looking when the top finding clearly outweighs whatever the remaining lenses could add, but keep every finding you already saw that carries money. Say which lenses and comparisons were skipped so the user can ask for them.
 
 - **Setup.** Campaign type fits the job (capturing existing demand vs creating it). Settings that quietly change delivery: networks and placements, location options, schedules, auto-applied suggestions, campaigns stuck learning or limited.
-- **Measurement.** The event fires and is stable (results falling while clicks hold is tracking until proven otherwise). No double counting between browser and server events. Which events count toward bidding. Attribution window against the real sales cycle. The platform's total against the business's own number. A measurement flaw makes the other findings unreliable, so it goes to the top.
+- **Measurement.** The event fires and is stable (results falling while clicks hold is tracking until proven otherwise). No double counting between browser and server events. Which events count toward bidding. Attribution window against the real sales cycle. The platform's total against the business's own number. When credit shifts between channels, check for tagging or attribution changes before calling it growth or decline. Across a confirmed shift, compare affected channels together where their combined count is still comparable, and check the business's total. A measurement flaw makes the other findings unreliable, so it goes to the top.
 - **Structure and spend.** Does the split into campaigns, ad sets and ads follow something that changes results (funnel stage, margin, market, intent) or something that does not? Break results down by age, placement, device, hour, region, audience and search term: does one segment carry the result while another eats budget? Many small pieces starve learning; one big piece hides losers.
 - **Creative.** How many ads really get spend, fatigue (frequency rising while click rate falls), formats that fit each placement, a message that fits the stage.
 - **Audience.** Ad sets bidding against each other on overlapping people, buyers left inside prospecting, retargeting windows against the sales cycle, narrow targeting on too little data.
-- **Budget and pacing.** Delivery against plan, campaigns capped by budget while they pay, budgets too thin for a stage to exit learning, lifetime budgets that front-load.
+- **Budget and pacing.** Delivery against plan, campaigns capped by budget while they pay, budgets too thin for a stage to exit learning, lifetime budgets that front-load. When spend changes, compare the change in spend with the change in Y, not just the average cost per result. Check seasonality and other changes before attributing the difference to budget.
 
 Platform specifics live in one page per network: [Google Ads](references/google-ads.md), [Meta Ads](references/meta-ads.md), [TikTok Ads](references/tiktok-ads.md), [Apple Ads](references/apple-ads.md), [LinkedIn Ads](references/linkedin-ads.md), [X Ads](references/x-ads.md), [Reddit Ads](references/reddit-ads.md), [Pinterest Ads](references/pinterest-ads.md), [ChatGPT Ads](references/chatgpt-ads.md). Read the page for the platform in front of you.
 
