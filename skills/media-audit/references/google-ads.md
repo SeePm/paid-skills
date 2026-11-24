@@ -22,7 +22,8 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Structure and spend
 - The search terms report is a **sample**: terms below a privacy threshold are not shown. State how many of the campaign's clicks the visible terms cover before concluding anything from them.
-- Auction insights (which competitors share your auctions and how often they rank above you) is in the interface under Insights and reports; its API fields are not open to every developer. Read it with absolute top impression share on brand keywords to see whether competitors bid on your brand.
+- Auction insights shows advertisers sharing your auctions and, for Search, how often they appear above you. It does not reveal their keyword targets. [Google Help](https://support.google.com/google-ads/answer/2579754)
+- If Auction insights is unavailable through the API, request an export from Google Ads. Google's API team reported restricted access in December 2025 and a closed allowlist in January 2026. [Google API team](https://groups.google.com/g/adwords-api/c/SupOLRKH7GU)
 - Breakdowns worth a look: device, hour and day, location, audience segments added in observation, and for Performance Max the search term and asset group insights.
 
 ## Creative
@@ -35,6 +36,6 @@ Facts Google documents publicly. Check the current help center when something lo
 
 ## Budget and pacing
 - "Limited by budget" on a campaign that pays is the opportunity, not the problem.
-- Search impression share lost to budget and lost to rank point to different fixes: the first is a budget cap, the second is bids, ad quality or landing page.
+- Search lost IS (budget) estimates impressions missed because of insufficient budget; Search lost IS (rank) estimates those missed because of poor Ad Rank. Neither shows whether the extra impressions would pay. [Google Help](https://support.google.com/google-ads/answer/7103314)
 - Google can spend up to twice the daily budget on a day, balanced over the month.
 - The API's change history covers 30 days; the interface goes further back. Older changes need the interface or your own log.
